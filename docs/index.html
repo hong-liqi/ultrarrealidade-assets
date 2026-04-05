@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ultrarrealidade Assets</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f4efe7;
+        --panel: #fffaf4;
+        --ink: #251f17;
+        --accent: #9b5c22;
+        --line: #dcc7b1;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        background: linear-gradient(180deg, #f8f3ec 0%, var(--bg) 100%);
+        color: var(--ink);
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 20px 64px;
+      }
+
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 24px;
+        box-shadow: 0 10px 30px rgba(37, 31, 23, 0.08);
+      }
+
+      h1 {
+        margin-top: 0;
+        margin-bottom: 12px;
+        font-size: clamp(2rem, 4vw, 3rem);
+      }
+
+      p {
+        line-height: 1.6;
+      }
+
+      code {
+        background: rgba(155, 92, 34, 0.08);
+        padding: 0.1em 0.35em;
+        border-radius: 6px;
+      }
+
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <h1>Ultrarrealidade Assets</h1>
+        <p>Este repositório publica imagens usadas pelos dossiês HTML dos protagonistas.</p>
+        <p>As imagens devem ficar dentro de <code>docs/assets/</code> para receber URLs estáveis via GitHub Pages.</p>
+      </section>
+    </main>
+  </body>
+</html>
